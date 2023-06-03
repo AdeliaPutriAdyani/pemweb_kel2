@@ -1,5 +1,5 @@
 <?php 
-    require 'functions.php';
+    require 'koneksi.php';
 
     if (empty($_POST['tanggal']) || empty($_POST['jumlah']) || empty($_POST['username'])) {
         echo '{"Status" : "Error", "Message" : "tanggal, jumlah, and username is required!"}';
